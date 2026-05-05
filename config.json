@@ -1,0 +1,13 @@
+{
+  "seed": 1337,
+  "verbose": true,
+  "max_tokens_per_pipeline": 4000,
+  "budget_strategy": "proportional",
+  "cache": {
+    "enabled": true,
+    "similarity_threshold": 0.92,
+    "embedding_dim": 64
+  },
+  "lookup_latency_ms": 1.0,
+  "log_path": "logs/trace.jsonl"
+}
