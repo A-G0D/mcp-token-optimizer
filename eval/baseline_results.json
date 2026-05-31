@@ -1,0 +1,38 @@
+[
+  {
+    "pipeline": "linear",
+    "optimized": false,
+    "node_count": 5,
+    "total_tokens": 259,
+    "total_latency_ms": 140.0,
+    "cache_hits": 0,
+    "success_rate": 1.0,
+    "statuses": {
+      "ok": 5
+    }
+  },
+  {
+    "pipeline": "branching",
+    "optimized": false,
+    "node_count": 4,
+    "total_tokens": 214,
+    "total_latency_ms": 115.0,
+    "cache_hits": 0,
+    "success_rate": 1.0,
+    "statuses": {
+      "ok": 4
+    }
+  },
+  {
+    "pipeline": "converging",
+    "optimized": false,
+    "node_count": 4,
+    "total_tokens": 189,
+    "total_latency_ms": 140.0,
+    "cache_hits": 0,
+    "success_rate": 1.0,
+    "statuses": {
+      "ok": 4
+    }
+  }
+]
