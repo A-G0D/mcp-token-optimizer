@@ -20,8 +20,8 @@ vector scan when it isn't needed.
 
 ## Proportional allocation by default
 Tools with bigger nominal outputs get a bigger slice of the ceiling, which is
-where the tokens actually go. There's an `equal` strategy too. Either way the
-ceiling is the real guarantee — allocation is just advisory, and `consume()`
+where the tokens actually go. There's an `equal` strategy too. Either way, the
+ceiling is the real guarantee. Allocation is just advisory, and `consume()`
 clamps total spend so a pipeline can't go over.
 
 ## Degrade instead of erroring
